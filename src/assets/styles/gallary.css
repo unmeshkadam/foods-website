@@ -1,0 +1,180 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+.carousel-root {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel .slide {
+  height: 100%;
+}
+
+.carousel .slide img {
+  width: 139px;
+  border-radius: 50%;
+}
+.carousel .control-dots {
+  padding-left: 5px;
+  outline: 0;
+  bottom: 2%;
+}
+.carousel .control-dots .dot {
+  box-shadow: none;
+  background: #454545;
+  outline: 0;
+}
+
+.carousel.carousel-slider .control-arrow {
+  background: #000;
+  height: 50px;
+  position: absolute;
+  top: 35%;
+}
+
+.gallary-main-container {
+  overflow: hidden;
+  padding: 3rem 1.5rem;
+}
+
+.gallary-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  max-width: 1300px;
+  margin: 0.5rem auto 0 auto;
+  flex-wrap: wrap;
+  padding-top: 2rem;
+  border-top: 1px solid #d3d3d3;
+}
+
+.gallary-heading p {
+  font-size: 1.9rem;
+  font-weight: 500;
+}
+
+.gallary-box-container {
+  max-width: 1400px;
+  margin: 15px auto 0 auto;
+  padding: 10px 0;
+}
+
+.gallary-img-box {
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-box-wrapper {
+  width: 600px;
+  height: 600px;
+  margin: "10px";
+}
+.gallary-container {
+  margin: 0.2rem 0.1rem 0.2rem 0.1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(45, 44, 44, 0.8);
+}
+.gallary-carousal-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.carousal-close-btn-box {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.carousal-close-btn {
+  cursor: pointer;
+  margin: 1rem;
+  color: azure;
+}
+.carousal-arrow-left {
+  cursor: pointer;
+  margin: 1rem;
+  color: azure;
+  position: absolute;
+  top: 35%;
+}
+.carousal-arrow-right {
+  cursor: pointer;
+  margin: 1rem;
+  color: azure;
+  position: absolute;
+  top: 35%;
+  right: 0.3rem;
+}
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 15px;
+  }
+  .gallary-heading {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .gallary-container {
+    width: 100%;
+  }
+  .gallary-carousal-container {
+    width: 95%;
+  }
+  .img-box-wrapper {
+    width: 350px;
+    height: 500px;
+  }
+  .carousal-arrow-wrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 912px) and (min-width: 541px) {
+  html {
+    font-size: 16px;
+  }
+  .gallary-heading p {
+    margin-left: 1.5rem;
+  }
+  .gallary-container {
+    width: 100%;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  html {
+    font-size: 16px;
+  }
+  .gallary-heading p {
+    margin-left: 1.5rem;
+  }
+  .gallary-container {
+    width: 100%;
+  }
+  .img-box-wrapper {
+    width: 350px;
+    height: 300px;
+  }
+}

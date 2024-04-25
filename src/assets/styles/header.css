@@ -1,0 +1,152 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container {
+  overflow: hidden;
+  padding: 8px 4px;
+  background-color: #f7f7f7;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.header {
+  display: flex;
+  max-width: 1248px;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-between;
+}
+
+.header a {
+  color: #484848;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 25px;
+  transition: 0.3s ease-in-out;
+}
+
+.logo-img {
+  margin: 2px 10px 2px 10px;
+}
+
+.navlinks-div,
+.navlinks-div-active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+
+.header a:hover {
+  color: #db2a2a;
+}
+
+.delivery-btn {
+  color: #fff;
+  background-color: #db2a2a;
+  padding: 0.5rem;
+  border-radius: 16px;
+  border: 1px solid #db2a2a;
+  text-align: center;
+  cursor: pointer;
+}
+
+.icons-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expand-icon {
+  display: none;
+}
+
+.icons {
+  color: #484848;
+  cursor: pointer;
+}
+
+.header a:active {
+  color: #db2a2a;
+  text-decoration: underline;
+} 
+
+@media screen and (max-width: 820px) {
+  html {
+    font-size: 12px;
+  }
+
+  .logo-img {
+    max-width: 100px;
+  }
+
+  .expand-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #484848;
+    margin: 5px 10px 5px 10px;
+  }
+
+  .navlinks-div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: absolute;
+    top: -300px;
+    left: 0px;
+    width: 100%;
+    height: 300px;
+    background: #fff;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 40px 0 0 10px;
+    margin: 0px;
+    transition: 0.3s ease-in-out;
+    z-index: -1;
+  }
+
+  .navlinks-div-active {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 68px;
+    left: 0px;
+    width: 100%;
+    height: 50vh;
+    background: #f7f7f7;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    padding: 40px 0 0 10px;
+    margin: 0px;
+    transition: 0.3s ease-in-out;
+    z-index: -1;
+  }
+
+  .header a {
+    font-size: 12px;
+  }
+
+  .header a:active {
+    color: #db2a2a;
+    text-decoration: underline;
+  } 
+
+}

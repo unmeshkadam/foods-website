@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+.contactlist-main-container {
+  background: url("../img/design_bg_1.jpeg") no-repeat center / cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+.contactlist-main {
+  width: 1500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contactlist-img {
+  background: url("../img/contact_us_1.png") no-repeat center / cover;
+  min-height: 500px;
+  margin-right: 50px;
+  flex-basis: 60%;
+}
+.contactlist-form {
+  flex-basis: 40%;
+  padding: 2rem;
+}
+.form-wrapper {
+  margin: 1;
+  width: 90%;
+}
+.form-title {
+  font-size: 2.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  margin-left: 12px;
+}
+.btn-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin: 12px;
+}
+.send-msg-btn {
+  border-radius: 20px;
+}
+
+.MuiFormHelperText-root {
+  color: #bc3a3a !important;
+}
+
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 15px;
+  }
+  .form-title {
+    font-size: 2rem;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .contactlist-form {
+    flex-basis: 100%;
+    padding: 0.2rem;
+  }
+  .contactlist-img {
+    display: none;
+  }
+  .btn-wrapper {
+    justify-content: center;
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 912px) and (min-width: 541px) {
+  html {
+    font-size: 16px;
+  }
+  .form-title {
+    font-size: 3rem;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  .contactlist-form {
+    flex-basis: 60%;
+    padding: 0.2rem;
+  }
+  .contactlist-img {
+    display: none;
+  }
+}
