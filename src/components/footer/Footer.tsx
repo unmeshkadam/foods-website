@@ -7,6 +7,8 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import PhoneIcon from "@mui/icons-material/Phone";
 import EmailIcon from "@mui/icons-material/Email";
 import LocationOnIcon from "@mui/icons-material/LocationOn";
+import GooglePlayLogo from "../../assets/img/google-play-logo.png";
+import AppStoreLogo from "../../assets/img/app-store-logo.jpg";
 
 function Footer() {
   const ourMenusList = [
@@ -33,7 +35,7 @@ function Footer() {
     {
       id: 6,
       name: "Cold Drinks",
-    }
+    },
   ];
 
   const usefulLinksList = [
@@ -68,8 +70,8 @@ function Footer() {
         <div className="food-zone-card">
           <p className="food-zone-title">FOODS </p>
           <p className="food-zone-text">
-            Lorem ipsum dolor sit amet, elit, sed do
-            eiusmod tempor incididunt magna aliqua.
+            Lorem ipsum dolor sit amet, elit, sed do eiusmod tempor incididunt
+            magna aliqua.
           </p>
           <div className="social-media-icons">
             <div className="social-media-icon-img">
@@ -155,6 +157,10 @@ function Footer() {
         <div className="download-app-card">
           <p className="footer-list-title">Download App</p>
           <p className="download-app-text">Save $3 with app & new user only</p>
+          <div className="download-app-img-container">
+            <img src={GooglePlayLogo} className="download-app-img" width="100px" />
+            <img src={AppStoreLogo} className="download-app-img" width="100px" />
+          </div>
         </div>
       </div>
       <div className="copywrite-container">
@@ -174,7 +180,7 @@ function Footer() {
                 display: "inline",
               }}
             >
-              2024. All rights reserved by{" "}
+              ©2024. All rights reserved by{" "}
             </p>
             <p style={{ fontSize: "14px", fontWeight: 600, color: "#fff" }}>
               FOODS
