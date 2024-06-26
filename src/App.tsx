@@ -6,6 +6,7 @@ import TestimonialsSection from "./components/mainSection/TestimonialsSection";
 import ServicesSection from "./components/mainSection/ServicesSection";
 import PhotoGallarySection from "./components/mainSection/PhotoGallary";
 import ContactList from "./components/mainSection/ContactList";
+import Footer from "./components/footer/Footer";
 import { CssBaseline } from "@mui/material";
 import { ThemeProvider } from "@mui/material";
 import theme from "./config/themeConfig";
@@ -27,8 +28,8 @@ const App: React.FC = () => {
         <TestimonialsSection />
         <ServicesSection />
         <PhotoGallarySection />
-        <ContactList />
-        <div style={{height: "200px"}}></div>
+        {/* <ContactList /> */}
+        <Footer />
       </div>
     </ThemeProvider>
   );

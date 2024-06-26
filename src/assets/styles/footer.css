@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+.footer-container {
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin: 2rem;
+}
+
+.food-zone-card {
+  width: 25%;
+  padding: 5px;
+}
+
+.food-zone-title {
+  font-family: "Sofia", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.food-zone-text {
+  font-size: 0.7rem;
+  margin-top: 1rem;
+  color: #dfdfdf;
+}
+
+.social-media-icons {
+  display: flex;
+  width: 100%;
+  margin-top: 0.5rem;
+}
+
+.social-media-icon-img {
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-list-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 0.5rem;
+}
+
+.footer-list-title {
+  color: #fff;
+  font-size: 0.9rem;
+  padding-bottom: 5px;
+  font-weight: 600;
+}
+
+.item-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.6rem;
+  text-decoration: none;
+  color: #dfdfdf;
+  padding: 2px;
+}
+.item-links-arrows {
+  font-size: 0.5rem;
+}
+
+.contact-us-card {
+  display: flex;
+  flex-direction: column;
+}
+.contact-img-list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.contact-img-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+.img-icon {
+  background-color: #ffbf4c;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-info {
+  font-size: 0.5rem;
+  color: #dfdfdf;
+}
+
+.download-app-card {
+}
+
+.download-app-text {
+  font-size: 0.5rem;
+  color: #dfdfdf;
+}
+
+.copywrite-container {
+  background-color: #5a5a5a;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.copywrite {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.7rem;
+  margin-bottom: 0.6rem;
+}
