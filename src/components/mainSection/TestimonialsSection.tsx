@@ -22,10 +22,10 @@ const TestimonialBox = (props: TestimonialBoxProps) => {
       </div>
       <div className="star-rating-box">
         {[...Array(props.ratings)].map((star) => (
-          <StarIcon className="star-icon" />
+          <StarIcon className="testimonial-star-icon" />
         ))}
         {[...Array(5 - props.ratings)].map((star) => (
-          <StarOutlineIcon className="star-icon" />
+          <StarOutlineIcon className="testimonial-star-icon" />
         ))}
       </div>
       <blockquote>{props.comment}</blockquote>
