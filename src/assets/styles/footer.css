@@ -9,7 +9,7 @@ html {
 }
 
 .footer-container {
-  background-color: #333333;
+  background-color: #5a5a5a;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,7 @@ html {
   display: flex;
   justify-content: space-between;
   width: 80vw;
-  margin: 2rem;
+  margin: 4rem;
 }
 
 .food-zone-card {
@@ -73,7 +73,7 @@ html {
 
 .footer-list-title {
   color: #fff;
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding-bottom: 5px;
   font-weight: 600;
 }
@@ -82,7 +82,7 @@ html {
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.6rem;
+  font-size: 0.7rem;
   text-decoration: none;
   color: #dfdfdf;
   padding: 2px;
@@ -117,7 +117,7 @@ html {
   align-items: center;
 }
 .contact-info {
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   color: #dfdfdf;
 }
 
@@ -128,25 +128,25 @@ html {
 }
 
 .download-app-text {
-  font-size: 0.5rem;
+  font-size: 0.6rem;
   color: #dfdfdf;
 }
 
-.download-app-img-container{
+.download-app-img-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-.download-app-img{
+.download-app-img {
   margin-top: 1rem;
   color: #fff;
   height: 35px;
 }
 
 .copywrite-container {
-  background-color: #5a5a5a;
+  background-color: #424242;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -156,7 +156,52 @@ html {
 .copywrite {
   width: 80%;
   display: flex;
-  justify-content: space-between;
-  margin-top: 0.7rem;
-  margin-bottom: 0.6rem;
+  justify-content: center;
+  margin-top: 0.6rem;
+  margin-bottom: 0.5rem;
+}
+
+@media screen and (max-width: 1280px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 912px) {
+  html {
+    font-size: 16px;
+  }
+  .download-app-card {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  html {
+    font-size: 15px;
+  }
+  .download-app-card {
+    display: none;
+  }
+  .footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 4rem;
+    width: 80vw;
+  }
+  .food-zone-card {
+    width: 100%;
+    padding: 5px;
+  }
+  .footer-list-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
+  .contact-us-card {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+  }
 }

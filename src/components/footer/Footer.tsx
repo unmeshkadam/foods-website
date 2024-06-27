@@ -158,8 +158,16 @@ function Footer() {
           <p className="footer-list-title">Download App</p>
           <p className="download-app-text">Save $3 with app & new user only</p>
           <div className="download-app-img-container">
-            <img src={GooglePlayLogo} className="download-app-img" width="100px" />
-            <img src={AppStoreLogo} className="download-app-img" width="100px" />
+            <img
+              src={GooglePlayLogo}
+              className="download-app-img"
+              width="100px"
+            />
+            <img
+              src={AppStoreLogo}
+              className="download-app-img"
+              width="100px"
+            />
           </div>
         </div>
       </div>
@@ -185,9 +193,6 @@ function Footer() {
             <p style={{ fontSize: "14px", fontWeight: 600, color: "#fff" }}>
               FOODS
             </p>{" "}
-          </div>
-          <div>
-            <p style={{ padding: "5px", fontSize: "15px" }}>Accept for</p>
           </div>
         </div>
       </div>
